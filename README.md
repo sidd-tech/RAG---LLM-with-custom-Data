@@ -23,7 +23,7 @@ This Jupyter Notebook implements the RAG Architecture using the Langchain framew
 
 
 ### RAG_with_Rerank.ipynb
-Sometimes the simple RAG arcitecture is not able to retrieve apt chunks to passed into LLM. So an additional retrieval layer is implemented to improve retrieval accuracy. In this notebook we use Flashrank for reranking which is based on cross-encoders and is open sourced.
+Sometimes the simple RAG arcitecture is not able to retrieve apt chunks to be passed into LLM. So an additional retrieval layer is implemented to improve retrieval accuracy. In this notebook we use Flashrank for reranking which is based on cross-encoders and is open sourced.
 In this notebook we encounter the problem when the required chunk is not extracted properly using the RAG Architecture. We then use Flashrank to state this issue.
 
  * FlashRank: FlashRank (https://pypi.org/project/FlashRank/) is utilized for topic ReRanking, enhancing retrieval results by leveraging cross-encoder techniques.
