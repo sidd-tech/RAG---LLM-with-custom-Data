@@ -7,7 +7,7 @@ This repository contains implementations of the Retrieval-Augmented Generation (
 
 ![image](https://github.com/sidd-tech/RAG---LLM-with-custom-Data/assets/57222634/1dc3eb5c-268e-4a58-8f54-5e95f0c4a85c)
 
-This architecture used pre-defined custom data stored in Vector DB. When user asks a question, it goes through vector data base and uses similarity search (cosine similarity) to retrieved the relevant chunks. It then forwards those chunks to the LLM. The LLM combines the user's query with the extracted context to generate answer to the user's query using the custom data provided.
+This architecture used pre-defined custom data split into small chunks and stored in Vector DB. When user asks a question, it goes through vector data base and uses similarity search (cosine similarity) to retrieved the relevant chunks. It then forwards those chunks to the LLM. The LLM combines the user's query with the extracted context to generate answer to the user's query using the custom data provided.
 
 
 ## Files:
